@@ -1,4 +1,4 @@
-<link rel="shortcut icon" type="image/png" href="/SVG-Emoji/favicon.png">
+<link rel="shortcut icon" type="image/png" href="/SVG-Emoji2/favicon.png">
 <img src="https://csf30816.github.io/SVG-Emoji2/emojis/smile.svg" width="100px" style="margin:auto;display:block" />
 
 # SVG Emoji 2
