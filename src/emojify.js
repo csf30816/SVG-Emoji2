@@ -1,0 +1,3 @@
+var emojify = function () {
+
+}
