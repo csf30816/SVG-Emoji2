@@ -4,11 +4,12 @@ var emojify = function (text) {
   return newText;
 }
 
-var emojis =  document.body.innerHTML.search(":\\)") +
-              document.body.innerHTML.search(":D");
+var emojis = -1;
 
 setInterval(
   function () {
+    emojis =  document.body.innerHTML.search(":\\)") +
+              document.body.innerHTML.search(":D");
     if (emojis > -1) {
       document.body.innerHTML = emojify(document.body.innerHTML);
     }
