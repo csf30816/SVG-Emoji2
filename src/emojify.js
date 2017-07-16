@@ -19,7 +19,7 @@ var emojify = function(text) {
 	newText = newText.replace(':frowning:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/frown-big.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	newText = newText.replace('😦', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/frown-big.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 
-	// Frowning With Open Mouth
+	// Open Mouth
 	newText = newText.replace(':open_mouth:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/open-mouth.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	newText = newText.replace('😮', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/open-mouth.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	newText = newText.replace(':O', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/open-mouth.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
