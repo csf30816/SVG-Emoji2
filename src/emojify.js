@@ -1,7 +1,7 @@
 var emojify = function (text) {
   // Smile
   var newText = text.replace(':)', '<span style="background-size: 100% 100%; background-image: url(\'//tinyurl.com/svg-smile\');">&nbsp&nbsp&nbsp&nbsp</span>');
-  newText = text.replace(':smile:', '<span style="background-size: 100% 100%; background-image: url(\'//tinyurl.com/svg-smile\');">&nbsp&nbsp&nbsp&nbsp</span>');
+  newText = newText.replace(':smile:', '<span style="background-size: 100% 100%; background-image: url(\'//tinyurl.com/svg-smile\');">&nbsp&nbsp&nbsp&nbsp</span>');
   
   // Big Smile
   newText = newText.replace(':D', '<span style="background-size: 100% 100%; background-image: url(\'//tinyurl.com/yaqdh78e\');">&nbsp&nbsp&nbsp&nbsp</span>');
