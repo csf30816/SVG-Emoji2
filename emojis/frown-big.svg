@@ -42,23 +42,4 @@
 				<path d="M1,10M2,10M3,10M4,10M6,10M7,10M8,10M9,10"/>
 			</g>
 		</g>
-    </pattern><pattern id="svgEditorGrid2" patternUnits="userSpaceOnUse" x="25" y="25" width="10" height="10" viewBox="0 0 10 10">
-	 
-	 <g style="fill:none;stroke:black;stroke-width:0.4" transform="scale(0.1)">
-	     troisieme niveau 10 1 
-	     <g style="stroke-dasharray:2 8;">
-		<path d="M-1 0 h102 M-1 10 h102 M-1 20 h102 M-1 30 h102 M-1 40 h102 M-1 50 h102 M-1 60 h102 M-1 70 h102 M-1 80 h102 M-1 90 h102 M-1 100 h102"/>
-		<path d="M0-1 v102 M10-1 v102 M20-1 v102 M30-1 v102 M40-1 v102 M50 -1 v102 M60-1 v102 M70-1 v102 M80-1 v102 M90-1 v102 M100-1 v102"/>
-	     </g>
-	      deuxieme niveau 50/3 
-	     <g style="stroke-dasharray:6 44;">
-		<path d="M-3 0 h106 M-3 50 h106 M-3 100 h106"/>
-		<path d="M0-3 v106 M50-3 v106 M100-3 v106"/>
-	     </g>
-	      premier niveau 100/5 
-	      <g style="stroke-dasharray:10 90;">
-		<path d="M-5 0 h110 M-5 100 h110"/>
-		<path d="M0-5 v119 M100-5 v110"/>
-	     </g>
-	 </g>
-	</pattern></defs><rect id="svgEditorBackground" x="0" y="0" width="50" height="50" style="stroke: none;" fill="url(&quot;#svgEditorGrid2&quot;)"/><circle id="e1_circle" cx="25" cy="25" style="stroke-width: 1px; stroke: none;" r="23" fill="#f8e16d"/><circle id="e2_circle" cx="15.00000014605822" cy="17.000001116915865" style="stroke: none; stroke-width: 1px;" r="4" fill="#333333" /><circle id="e3_circle" cx="35.000001099732536" cy="17.000001116915865" style="stroke: none; stroke-width: 1px;" r="4" fill="#333333" /><path d="M15,39a5,5,0,0,1,20,0" stroke="#333333" id="e8_circleArc" style="stroke-width: 3px;" fill="#333333"/></svg>
+    </pattern></defs><circle id="e2_circle" cx="15.00000014605822" cy="17.000001116915865" style="stroke: none; stroke-width: 1px;" r="4" fill="#333333" /><circle id="e3_circle" cx="35.000001099732536" cy="17.000001116915865" style="stroke: none; stroke-width: 1px;" r="4" fill="#333333" /><path d="M15,39a5,5,0,0,1,20,0" stroke="#333333" id="e8_circleArc" style="stroke-width: 3px;" fill="#333333"/></svg>
