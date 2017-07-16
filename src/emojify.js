@@ -1,19 +1,19 @@
 var emojify = function (text) {
   // Smile
-  var newText = text.replace(':)', '<span style="background-size: 100% 100%; background-image: url(\'//tinyurl.com/svg-smile\');">&nbsp&nbsp&nbsp&nbsp</span>');
-  newText = newText.replace(':smile:', '<span style="background-size: 100% 100%; background-image: url(\'//tinyurl.com/svg-smile\');">&nbsp&nbsp&nbsp&nbsp</span>');
+  var newText = text.replace(':)', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/smile.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+  newText = newText.replace(':smile:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/smile.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
   
   // Big Smile
-  newText = newText.replace(':D', '<span style="background-size: 100% 100%; background-image: url(\'//tinyurl.com/yaqdh78e\');">&nbsp&nbsp&nbsp&nbsp</span>');
-  newText = newText.replace(':big-smile:', '<span style="background-size: 100% 100%; background-image: url(\'//tinyurl.com/yaqdh78e\');">&nbsp&nbsp&nbsp&nbsp</span>');
+  newText = newText.replace(':D', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/smile-big.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+  newText = newText.replace(':big-smile:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/smile-big.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
   
   // Frown
-  newText = newText.replace(':(', '<span style="background-size: 100% 100%; background-image: url(\'//tinyurl.com/y9z4472j\');">&nbsp&nbsp&nbsp&nbsp</span>');
-  newText = newText.replace(':frown:', '<span style="background-size: 100% 100%; background-image: url(\'//tinyurl.com/y9z4472j\');">&nbsp&nbsp&nbsp&nbsp</span>');
+  newText = newText.replace(':(', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/frown.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+  newText = newText.replace(':frown:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/frown.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
   
   // Big Frown
-  newText = newText.replace('D:', '<span style="background-size: 100% 100%; background-image: url(\'//tinyurl.com/yaqsmqlq\');">&nbsp&nbsp&nbsp&nbsp</span>');
-  newText = newText.replace(':big-frown:', '<span style="background-size: 100% 100%; background-image: url(\'//tinyurl.com/yaqsmqlq\');">&nbsp&nbsp&nbsp&nbsp</span>');
+  newText = newText.replace('D:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/frown-big.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+  newText = newText.replace(':big-frown:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/frown-big.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
   
   return newText;
 }
