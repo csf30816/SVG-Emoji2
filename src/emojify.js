@@ -38,8 +38,7 @@ var emojify = function(text) {
 	newText = newText.replace('😛', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/tongue.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	
 	return newText;
-}
-document.body.innerHTML = emojify(document.body.innerHTML);
+};
 var emojis = -1;
 setInterval(
 	function() {
