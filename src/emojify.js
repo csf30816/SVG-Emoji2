@@ -46,6 +46,8 @@ setInterval(
 			 document.body.innerHTML.search(":\\(") +
 			 document.body.innerHTML.search(":slight_smile:") +
 			 document.body.innerHTML.search("🙂") +
+			 document.body.innerHTML.search(":smile:") +
+			 document.body.innerHTML.search("😄") +
 			 document.body.innerHTML.search(":grinning:") +
 			 document.body.innerHTML.search("😀") +
 			 document.body.innerHTML.search(":frowning2:") +
