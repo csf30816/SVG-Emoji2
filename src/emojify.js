@@ -24,6 +24,10 @@ var emojify = function(text) {
 	newText = newText.replace('😮', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/open-mouth.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	newText = newText.replace(':O', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/open-mouth.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	
+	// No Mouth
+	newText = newText.replace(':no_mouth:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/no-mouth.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	newText = newText.replace('😶', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/no-mouth.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	
 	return newText;
 }
 var emojis = -1;
@@ -41,6 +45,8 @@ setInterval(
 			 document.body.innerHTML.search("😦") +
 			 document.body.innerHTML.search(":open_mouth:") +
 			 document.body.innerHTML.search("😮") +
+			 document.body.innerHTML.search(":no_mouth:") +
+			 document.body.innerHTML.search("😶") +
 			 document.body.innerHTML.search(":O") +
 			 document.body.innerHTML.search(":D");
 
