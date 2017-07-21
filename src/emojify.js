@@ -28,6 +28,10 @@ var emojify = function(text) {
 	newText = newText.replace(':no_mouth:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/no-mouth.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	newText = newText.replace('😶', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/no-mouth.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	
+	// Smile
+	newText = newText.replace(':smile:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/smile-i.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	newText = newText.replace('😄', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/smile-i.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	
 	// Stuck Out Tongue
 	newText = newText.replace(':stuck_out_tongue:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/tongue.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	newText = newText.replace(':P', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/tongue.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
