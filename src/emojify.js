@@ -39,6 +39,7 @@ var emojify = function(text) {
 	
 	return newText;
 }
+document.body.innerHTML = emojify(document.body.innerHTML);
 var emojis = -1;
 setInterval(
 	function() {
