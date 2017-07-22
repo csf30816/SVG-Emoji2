@@ -37,7 +37,7 @@ var emojify = function(text) {
 	newText = newText.replace(':P', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/tongue.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	newText = newText.replace('😛', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/tongue.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	
-	// Stuck Out Tongue
+	// Neutral Face
 	newText = newText.replace(':neutral:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/neutral.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	newText = newText.replace(':|', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/neutral.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	newText = newText.replace('😐', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/neutral.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
