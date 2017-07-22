@@ -42,6 +42,15 @@ var emojify = function(text) {
 	newText = newText.replace(':|', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/neutral.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	newText = newText.replace('😐', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/neutral.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	
+	// Raging Face
+	newText = newText.replace(':rage:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/rage.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	newText = newText.replace(':raging:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/rage.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	newText = newText.replace('😡', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/rage.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	
+	// Angry Face
+	newText = newText.replace(':angry:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/angry.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	newText = newText.replace('😠', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/angry.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	
 	return newText;
 };
 var emojis = -1;
@@ -67,6 +76,11 @@ setInterval(
 			 document.body.innerHTML.search("😛") +
 			 document.body.innerHTML.search(":neutral:") +
 			 document.body.innerHTML.search("😐") +
+			 document.body.innerHTML.search(":rage:") +
+			 document.body.innerHTML.search(":raging:") +
+			 document.body.innerHTML.search("😡") +
+			 document.body.innerHTML.search(":angry:") +
+			 document.body.innerHTML.search("😠") +
 			 document.body.innerHTML.search(":O") +
 			 document.body.innerHTML.search(":\\|") +
 			 document.body.innerHTML.search(":P") +
