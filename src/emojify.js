@@ -74,7 +74,7 @@ setInterval(
 
 		if (emojis > -1) {
 			document.body.innerHTML = emojify(document.body.innerHTML);
-			console.clear(); // Just so sites with lot's of errors don't overflow ;)
+			//console.clear(); // Just so sites with lot's of errors don't overflow ;)
 		}
 	}, 500
 );
