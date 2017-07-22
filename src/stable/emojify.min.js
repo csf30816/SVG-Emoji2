@@ -96,5 +96,5 @@ setInterval(
 			document.body.innerHTML = emojify(document.body.innerHTML);
 			//console.clear(); // Just so sites with lot's of errors don't overflow ;)
 		}
-	}, 200
+	}, 500
 );
