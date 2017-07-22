@@ -62,35 +62,35 @@ var emojis = -1;
 document.body.innerHTML = emojify(document.body.innerHTML);
 setInterval(
 	function() {
-		emojis = document.body.innerHTML.includes(":\\)") +
-			 document.body.innerHTML.includes(":\\(") +
-			 document.body.innerHTML.includes(":slight_smile:") +
-			 document.body.innerHTML.includes("🙂") +
-			 document.body.innerHTML.includes(":smile:") +
-			 document.body.innerHTML.includes("😄") +
-			 document.body.innerHTML.includes(":grinning:") +
-			 document.body.innerHTML.includes("😀") +
-			 document.body.innerHTML.includes(":frowning2:") +
-			 document.body.innerHTML.includes("☹") +
-			 document.body.innerHTML.includes(":frowning:") +
-			 document.body.innerHTML.includes("😦") +
-			 document.body.innerHTML.includes(":open_mouth:") +
-			 document.body.innerHTML.includes("😮") +
-			 document.body.innerHTML.includes(":no_mouth:") +
-			 document.body.innerHTML.includes("😶") +
-			 document.body.innerHTML.includes(":stuck_out_tongue:") +
-			 document.body.innerHTML.includes("😛") +
-			 document.body.innerHTML.includes(":neutral:") +
-			 document.body.innerHTML.includes("😐") +
-			 document.body.innerHTML.includes(":rage:") +
-			 document.body.innerHTML.includes(":raging:") +
-			 document.body.innerHTML.includes("😡") +
-			 document.body.innerHTML.includes(":angry:") +
-			 document.body.innerHTML.includes("😠") +
-			 document.body.innerHTML.includes(":O") +
-			 document.body.innerHTML.includes(":\\|") +
-			 document.body.innerHTML.includes(":P") +
-			 document.body.innerHTML.includes(":D");
+		emojis = document.body.innerHTML.search(":\\)") +
+			 document.body.innerHTML.search(":\\(") +
+			 document.body.innerHTML.search(":slight_smile:") +
+			 document.body.innerHTML.search("🙂") +
+			 document.body.innerHTML.search(":smile:") +
+			 document.body.innerHTML.search("😄") +
+			 document.body.innerHTML.search(":grinning:") +
+			 document.body.innerHTML.search("😀") +
+			 document.body.innerHTML.search(":frowning2:") +
+			 document.body.innerHTML.search("☹") +
+			 document.body.innerHTML.search(":frowning:") +
+			 document.body.innerHTML.search("😦") +
+			 document.body.innerHTML.search(":open_mouth:") +
+			 document.body.innerHTML.search("😮") +
+			 document.body.innerHTML.search(":no_mouth:") +
+			 document.body.innerHTML.search("😶") +
+			 document.body.innerHTML.search(":stuck_out_tongue:") +
+			 document.body.innerHTML.search("😛") +
+			 document.body.innerHTML.search(":neutral:") +
+			 document.body.innerHTML.search("😐") +
+			 document.body.innerHTML.search(":rage:") +
+			 document.body.innerHTML.search(":raging:") +
+			 document.body.innerHTML.search("😡") +
+			 document.body.innerHTML.search(":angry:") +
+			 document.body.innerHTML.search("😠") +
+			 document.body.innerHTML.search(":O") +
+			 document.body.innerHTML.search(":\\|") +
+			 document.body.innerHTML.search(":P") +
+			 document.body.innerHTML.search(":D");
 
 		if (emojis > 0) {
 			document.body.innerHTML = emojify(document.body.innerHTML);
