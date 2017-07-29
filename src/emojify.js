@@ -56,6 +56,11 @@ var emojify = function(text) {
 	newText = newText.replaceAll(':angry:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/angry.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	newText = newText.replaceAll('😠', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/angry.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	
+	// Raging Face
+	newText = newText.replaceAll(';)', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/wink.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	newText = newText.replaceAll(':wink:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/wink.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	newText = newText.replaceAll('😉', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/wink.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	
 	return newText;
 };
 var emojis = -1;
@@ -87,6 +92,9 @@ setInterval(
 			 document.body.innerHTML.search("😡") +
 			 document.body.innerHTML.search(":angry:") +
 			 document.body.innerHTML.search("😠") +
+			 document.body.innerHTML.search(":wink:") +
+			 document.body.innerHTML.search("😉") +
+			 document.body.innerHTML.search(";\\)") +
 			 document.body.innerHTML.search(":O") +
 			 document.body.innerHTML.search(":\\|") +
 			 document.body.innerHTML.search(":P") +
