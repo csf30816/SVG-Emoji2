@@ -1,7 +1,7 @@
 var script = document.createElement('script');
 script.src = "https://cdn.rawgit.com/padolsey/findAndReplaceDOMText/master/src/findAndReplaceDOMText.js";
 script.onload = function() {
-	replace = function(search, replacement) {
+	var replace = function(search, replacement) {
 		findAndReplaceDOMText(document.body, {
 			find: search,
 			replace: function(m) {
