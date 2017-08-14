@@ -65,6 +65,10 @@ var emojify = function(text) {
 	newText = newText.replaceAll(':grin:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/grin.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	newText = newText.replaceAll('😁', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/grin.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	
+	// Laughing Face
+	newText = newText.replaceAll(':laughing:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/laughing.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	newText = newText.replaceAll('😆', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/laughing.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	
 	return newText;
 };
 var emojis = -1;
@@ -75,6 +79,8 @@ setInterval(
 			 document.body.innerHTML.search(":\\(") +
 			 document.body.innerHTML.search(":slight_smile:") +
 			 document.body.innerHTML.search("🙂") +
+			 document.body.innerHTML.search(":laughing:") +
+			 document.body.innerHTML.search("😆") +
 			 document.body.innerHTML.search(":grin:") +
 			 document.body.innerHTML.search("😁") +
 			 document.body.innerHTML.search(":smile:") +
