@@ -56,10 +56,14 @@ var emojify = function(text) {
 	newText = newText.replaceAll(':angry:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/angry.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	newText = newText.replaceAll('😠', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/angry.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	
-	// Raging Face
+	// Winking Face
 	newText = newText.replaceAll(';)', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/wink.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	newText = newText.replaceAll(':wink:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/wink.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	newText = newText.replaceAll('😉', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/wink.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	
+	// Grinning Face with Smiling Eyes
+	newText = newText.replaceAll(':grin:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/grin.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	newText = newText.replaceAll('😁', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/grin.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	
 	return newText;
 };
@@ -71,6 +75,8 @@ setInterval(
 			 document.body.innerHTML.search(":\\(") +
 			 document.body.innerHTML.search(":slight_smile:") +
 			 document.body.innerHTML.search("🙂") +
+			 document.body.innerHTML.search(":grin:") +
+			 document.body.innerHTML.search("😁") +
 			 document.body.innerHTML.search(":smile:") +
 			 document.body.innerHTML.search("😄") +
 			 document.body.innerHTML.search(":grinning:") +
