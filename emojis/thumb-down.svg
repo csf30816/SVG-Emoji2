@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="50px"
+   height="50px"
+   viewBox="0 0 50 50"
+   preserveAspectRatio="xMidYMid meet"
+   version="1.1"
+   id="svg1013"
+   sodipodi:docname="thumb-down.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata1017">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview1015"
+     showgrid="false"
+     inkscape:zoom="11.06"
+     inkscape:cx="25"
+     inkscape:cy="25"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1013" />
+  <defs
+     id="svgEditorDefs">
+    <pattern
+       id="svgEditorGrid0"
+       patternUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="10"
+       height="10"
+       viewBox="0 0 10 10">
+      <defs
+         id="defs923">
+        <marker
+           id="svgEditorGridMkCircle"
+           viewBox="0 0 2 2"
+           refX="1"
+           refY="1"
+           markerUnits="strokeWidth"
+           markerWidth="2"
+           markerHeight="2"
+           orient="0deg">
+          <circle
+             cx="1"
+             cy="1"
+             r="1"
+             style="fill:black;stroke:none;"
+             id="circle917" />
+        </marker>
+        <marker
+           id="svgEditorGridMkSquare"
+           viewBox="0 0 2 2"
+           refX="1"
+           refY="1"
+           markerUnits="strokeWidth"
+           markerWidth="2"
+           markerHeight="2"
+           orient="0deg">
+          <rect
+             x="0"
+             y="0"
+             width="2"
+             height="2"
+             style="fill:black;stroke:none;"
+             id="rect920" />
+        </marker>
+      </defs>
+      <g
+         marker-start="url(#svgEditorGridMkCircle)"
+         marker-end="url(#svgEditorGridMkCircle)"
+         marker-mid="url(#svgEditorGridMkCircle)"
+         stroke="none"
+         id="g953">
+        <path
+           d="M0,0M10,0M10,10M0,10"
+           stroke-width="0.4"
+           id="path925" />
+        <path
+           d="M5,0M0,5M5,5M10,5M5,10"
+           stroke-width="0.2"
+           id="path927" />
+        <g
+           stroke-width="0.125"
+           id="g951">
+          <path
+             d="M1,0M2,0M3,0M4,0M6,0M7,0M8,0M9,0"
+             id="path929" />
+          <path
+             d="M0,1M1,1M2,1M3,1M4,1M5,1M6,1M7,1M8,1M9,1M10,1"
+             id="path931" />
+          <path
+             d="M0,2M1,2M2,2M3,2M4,2M5,2M6,2M7,2M8,2M9,2M10,2"
+             id="path933" />
+          <path
+             d="M0,3M1,3M2,3M3,3M4,3M5,3M6,3M7,3M8,3M9,3M10,3"
+             id="path935" />
+          <path
+             d="M0,4M1,4M2,4M3,4M4,4M5,4M6,4M7,4M8,4M9,4M10,4"
+             id="path937" />
+          <path
+             d="M1,5M2,5M3,5M4,5M6,5M7,5M8,5M9,5"
+             id="path939" />
+          <path
+             d="M0,6M1,6M2,6M3,6M4,6M5,6M6,6M7,6M8,6M9,6M10,6"
+             id="path941" />
+          <path
+             d="M0,7M1,7M2,7M3,7M4,7M5,7M6,7M7,7M8,7M9,7M10,7"
+             id="path943" />
+          <path
+             d="M0,8M1,8M2,8M3,8M4,8M5,8M6,8M7,8M8,8M9,8M10,8"
+             id="path945" />
+          <path
+             d="M0,9M1,9M2,9M3,9M4,9M5,9M6,9M7,9M8,9M9,9M10,9"
+             id="path947" />
+          <path
+             d="M1,10M2,10M3,10M4,10M6,10M7,10M8,10M9,10"
+             id="path949" />
+        </g>
+      </g>
+    </pattern>
+    <pattern
+       id="svgEditorGrid1"
+       patternUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="10"
+       height="10"
+       viewBox="0 0 10 10">
+      <g
+         marker-start="url(#svgEditorGridMkSquare)"
+         marker-end="url(#svgEditorGridMkSquare)"
+         marker-mid="url(#svgEditorGridMkSquare)"
+         stroke="none"
+         id="g984">
+        <path
+           d="M0,0M10,0M10,10M0,10"
+           stroke-width="0.4"
+           id="path956" />
+        <path
+           d="M5,0M0,5M5,5M10,5M5,10"
+           stroke-width="0.2"
+           id="path958" />
+        <g
+           stroke-width="0.125"
+           id="g982">
+          <path
+             d="M1,0M2,0M3,0M4,0M6,0M7,0M8,0M9,0"
+             id="path960" />
+          <path
+             d="M0,1M1,1M2,1M3,1M4,1M5,1M6,1M7,1M8,1M9,1M10,1"
+             id="path962" />
+          <path
+             d="M0,2M1,2M2,2M3,2M4,2M5,2M6,2M7,2M8,2M9,2M10,2"
+             id="path964" />
+          <path
+             d="M0,3M1,3M2,3M3,3M4,3M5,3M6,3M7,3M8,3M9,3M10,3"
+             id="path966" />
+          <path
+             d="M0,4M1,4M2,4M3,4M4,4M5,4M6,4M7,4M8,4M9,4M10,4"
+             id="path968" />
+          <path
+             d="M1,5M2,5M3,5M4,5M6,5M7,5M8,5M9,5"
+             id="path970" />
+          <path
+             d="M0,6M1,6M2,6M3,6M4,6M5,6M6,6M7,6M8,6M9,6M10,6"
+             id="path972" />
+          <path
+             d="M0,7M1,7M2,7M3,7M4,7M5,7M6,7M7,7M8,7M9,7M10,7"
+             id="path974" />
+          <path
+             d="M0,8M1,8M2,8M3,8M4,8M5,8M6,8M7,8M8,8M9,8M10,8"
+             id="path976" />
+          <path
+             d="M0,9M1,9M2,9M3,9M4,9M5,9M6,9M7,9M8,9M9,9M10,9"
+             id="path978" />
+          <path
+             d="M1,10M2,10M3,10M4,10M6,10M7,10M8,10M9,10"
+             id="path980" />
+        </g>
+      </g>
+    </pattern>
+    <pattern
+       id="svgEditorGrid2"
+       patternUnits="userSpaceOnUse"
+       x="25"
+       y="25"
+       width="10"
+       height="10"
+       viewBox="0 0 10 10">
+      <g
+         style="fill:none;stroke:black;stroke-width:0.4"
+         transform="scale(0.1)"
+         id="g1005">
+	     troisieme niveau 10 1 
+	     <g
+   style="stroke-dasharray:2 8;"
+   id="g991">
+  <path
+     d="M-1 0 h102 M-1 10 h102 M-1 20 h102 M-1 30 h102 M-1 40 h102 M-1 50 h102 M-1 60 h102 M-1 70 h102 M-1 80 h102 M-1 90 h102 M-1 100 h102"
+     id="path987" />
+  <path
+     d="M0-1 v102 M10-1 v102 M20-1 v102 M30-1 v102 M40-1 v102 M50 -1 v102 M60-1 v102 M70-1 v102 M80-1 v102 M90-1 v102 M100-1 v102"
+     id="path989" />
+</g>
+
+	      deuxieme niveau 50/3 
+	     <g
+   style="stroke-dasharray:6 44;"
+   id="g997">
+  <path
+     d="M-3 0 h106 M-3 50 h106 M-3 100 h106"
+     id="path993" />
+  <path
+     d="M0-3 v106 M50-3 v106 M100-3 v106"
+     id="path995" />
+</g>
+
+	      premier niveau 100/5 
+	      <g
+   style="stroke-dasharray:10 90;"
+   id="g1003">
+  <path
+     d="M-5 0 h110 M-5 100 h110"
+     id="path999" />
+  <path
+     d="M0-5 v119 M100-5 v110"
+     id="path1001" />
+</g>
+</g>
+    </pattern>
+    <polygon
+       id="svgEditorShapeDefs"
+       style="fill:khaki;stroke:black;vector-effect:non-scaling-stroke;stroke-width:1px;" />
+  </defs>
+  <g
+     transform="matrix(0.360963 0 0 0.360963 2 0.454539)"
+     style="fill:khaki; stroke:black; vector-effect:non-scaling-stroke;stroke-width:1px;"
+     id="e4_shape" />
+  <path
+     d="m 2.0000014,33 c 0,0 0,-30.0000004 -1.4e-6,-29.9999984 1.4e-6,-2e-6 9.000001,-2e-6 9,0 2.000001,-2e-6 3.000001,0.999998 3,3 10e-7,-2e-6 9.000001,-2e-6 9,0 2.000001,-2.000002 4.000001,-3.000002 8,-3 1e-6,-2e-6 12.000001,-2e-6 12,0 2.000001,-2e-6 3.000001,0.999998 3,3 C 47.213,16.058002 47.322,16.870002 48,27.000002 48.000001,29 47.000001,30 45,30.000002 45.000001,30 36.000001,30 36.000001,30 c 0,0 0,13 0,13 0,3 -2,4 -4,4 -2,0 -4,-1 -4.000001,-3.999999 C 27.000001,36 28.000001,30 20,30.000002 c 1e-6,-2e-6 -5.999999,-2e-6 -6,0 10e-7,1.999998 -0.999999,2.999998 -3,3 10e-7,-2e-6 -8.9999986,-2e-6 -9,0 1.4e-6,-2e-6 1.4e-6,-30.0000024 0,-30.0000004 z"
+     style="fill:#f8e16d;stroke:none;stroke-width:1px"
+     id="e5_path"
+     inkscape:connector-curvature="0" />
+</svg>
