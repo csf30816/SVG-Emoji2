@@ -79,6 +79,16 @@ script.onload = function() {
 		// Laughing Face
 		replace(':laughing:', 'https://csf30816.github.io/SVG-Emoji2/emojis/laughing.svg');
 		replace('😆', 'https://csf30816.github.io/SVG-Emoji2/emojis/laughing.svg');
+		
+		// Thumb's Up
+		replace(':thumb_up:', 'https://csf30816.github.io/SVG-Emoji2/emojis/thumb-up.svg');
+		replace(':thumbs_up:', 'https://csf30816.github.io/SVG-Emoji2/emojis/thumb-up.svg');
+		replace('👍', 'https://csf30816.github.io/SVG-Emoji2/emojis/thumb-up.svg');
+		
+		// Thumb's Down
+		replace(':thumb_down:', 'https://csf30816.github.io/SVG-Emoji2/emojis/thumb-down.svg');
+		replace(':thumbs_down:', 'https://csf30816.github.io/SVG-Emoji2/emojis/thumb-down.svg');
+		replace('👎', 'https://csf30816.github.io/SVG-Emoji2/emojis/thumb-down.svg');
 	
 	};
 	var emojis = -1;
@@ -116,6 +126,12 @@ script.onload = function() {
 			 	document.body.innerHTML.search("😠") +
 			 	document.body.innerHTML.search(":wink:") +
 			 	document.body.innerHTML.search("😉") +
+				document.body.innerHTML.search(":thumb_up:") +
+			 	document.body.innerHTML.search(":thumbs_up") +
+				document.body.innerHTML.search(":thumb_down:") +
+			 	document.body.innerHTML.search(":thumbs_down:") +
+				document.body.innerHTML.search("👍") +
+			 	document.body.innerHTML.search("👎") +
 			 	document.body.innerHTML.search(";\\)") +
 			 	document.body.innerHTML.search(":O") +
 			 	document.body.innerHTML.search(":\\|") +
