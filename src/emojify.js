@@ -70,14 +70,14 @@ var emojify = function(text) {
 	newText = newText.replaceAll('😆', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/laughing.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	
 	// Thumbs Up
-	newText = newText.replaceAll(':thumb_up:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/thumb_up.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
-	newText = newText.replaceAll(':thumbs_up:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/thumb_up.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
-	newText = newText.replaceAll('👍', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/thumb_up.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	newText = newText.replaceAll(':thumb_up:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/thumb-up.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	newText = newText.replaceAll(':thumbs_up:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/thumb-up.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	newText = newText.replaceAll('👍', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/thumb-up.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	
 	// Thumbs Up
-	newText = newText.replaceAll(':thumb_down:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/thumb_down.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
-	newText = newText.replaceAll(':thumbs_down:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/thumb_down.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
-	newText = newText.replaceAll('👎', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/thumb_down.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	newText = newText.replaceAll(':thumb_down:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/thumb-down.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	newText = newText.replaceAll(':thumbs_down:', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/thumb-down.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
+	newText = newText.replaceAll('👎', '<span style="background-size: 100% 100%; background-image: url(\'https://csf30816.github.io/SVG-Emoji2/emojis/thumb-down.svg\');">&nbsp&nbsp&nbsp&nbsp</span>');
 	
 	return newText;
 };
